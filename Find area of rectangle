@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+    
+    int l, b, area=0;
+    
+     
+    printf("enter length of the traingle : ");
+    scanf("%d", &l);
+    
+     
+    printf("enter base of the traingle : ");
+    scanf("%d", &b);
+    
+    area= l*b;
+    printf("Area of rectangle is %d", area);
+    
+    return 0;
+}
