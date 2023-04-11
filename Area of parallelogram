@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+    
+    int h, b, area=0;
+    
+     
+    printf("enter height of the traingle : ");
+    scanf("%d", &h);
+    
+     
+    printf("enter base of the traingle : ");
+    scanf("%d", &b);
+    
+    area= h*b;
+    printf("Area of parallelogram is %d", area);
+    
+    return 0;
+}
