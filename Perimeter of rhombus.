@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+    
+    int a, perim=0;
+    
+    printf("enter the length of the rhombus : ");
+    scanf("%d", &a);
+    
+    perim= 4*a;
+    printf("Perimeter of the rhombus is %d", perim);
+    
+    return 0;
+}
