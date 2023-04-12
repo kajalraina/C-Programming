@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+    
+    int b, h, vol=0;
+    
+    //b is the area of the base of prism
+    printf("enter the area of base : ");
+    scanf("%d", &b);
+    
+    //h is the height of the prism
+    printf("enter the height of prism : ");
+    scanf("%d", &h);
+    
+    vol= b*h;
+    printf("Volume of the prism is %d",vol);
+    
+    return 0;
+}
