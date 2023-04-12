@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main(){
+    
+    int t1, t2, newTerm=0, i,n; 
+    
+    t1=0;
+    t2=1;
+    
+    newTerm= t1+t2;
+    
+    printf("enter the total number of series : ");
+    scanf("%d", &n);
+    
+    printf("Fibonacci series : %d\t, %d\t, \t", t1 , t2 );
+    
+    for(i=3; i<=n; i++){
+        
+        printf("%d,\t",newTerm);
+        
+        t1= t2;
+        t2=newTerm;
+        newTerm= t1+t2;
+    }
+    
+    return 0;
+}
