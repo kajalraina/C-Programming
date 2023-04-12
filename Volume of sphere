@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+    
+    int r, vol=0;
+    float pi=3.14;
+    
+    printf("enter the radius of cylinder : ");
+    scanf("%d", &r);
+    
+    vol= 4*pi*r*r*r/3;
+    printf("Volume of the sphere is %d",vol);
+    
+    return 0;
+}
