@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main(){
+    
+    int l, w, h, vol=0;
+    
+    printf("enter the length of pyramid : ");
+    scanf("%d", &l);
+    
+    printf("enter the width of pyramid : ");
+    scanf("%d", &w);
+    
+    printf("enter the height of pyramid : ");
+    scanf("%d", &h);
+    
+    vol= l*w*h/3;
+    printf("Volume of pyramid is %d",vol);
+    
+    return 0;
+}
