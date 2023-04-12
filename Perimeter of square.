@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+    
+    int a, perim=0;
+    
+    printf("enter the side of the square : ");
+    scanf("%d", &a);
+    
+    perim= 4*a;
+    printf("Perimeter of the square is %d", perim);
+    
+    return 0;
+}
