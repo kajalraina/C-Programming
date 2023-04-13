@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main(){
+    
+    int i,num, prod=1, sum=0, rem, subt;
+    
+    printf("enter a number : ");
+    scanf("%d", &num);
+    
+    while(num!=0){
+        rem = num%10;
+        sum = sum+rem;
+        prod= prod*rem;
+        num = num/10;  
+    }   
+    printf("%d\n",sum);
+    printf("%d\n",prod);
+        
+    subt = prod-sum;
+    printf("Answer is %d",subt);
+    
+    return 0;
+}
