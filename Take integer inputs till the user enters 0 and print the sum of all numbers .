@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main(){
+    
+    int num , i=0, sum=0;
+    do{
+        printf("enter a number : ");
+        scanf("%d", &num);
+        i= i+num;
+        
+        if(num==0){
+            break;
+        }
+    } 
+    while(1);
+    printf("%d\n", i);
+    printf("end");
+    
+    return 0;
+}
