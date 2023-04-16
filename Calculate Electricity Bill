@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+int main(){
+    
+    int unitGen, i;
+    float bill=1;
+    
+    printf("enter a number : ");
+    scanf("%d", &unitGen);
+    
+    if(unitGen>=1 && unitGen<=50){
+        bill= unitGen*3.50;
+        printf("Total bill is %f", bill);
+    }
+    else if(unitGen>50 && unitGen<=150){
+        bill= unitGen*4.00;
+        printf("Total bill is %f", bill);
+    }
+    else if(unitGen>150 && unitGen<=250){
+        bill= unitGen*5.20;
+        printf("Total bill is %f", bill);
+    }
+    else if(unitGen>250){
+        bill= unitGen*6.50;
+        printf("Total bill is %f", bill);
+    }
+    else{
+        printf("Not valid");
+    }
+    return 0;
+}
