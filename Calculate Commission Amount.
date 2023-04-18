@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+    
+    float salesPrice, amount=0, percentage;
+    
+    printf("enter sales price and amount :\n ");
+     scanf("%f %f", &salesPrice, &percentage);
+     
+    amount= salesPrice*percentage/100;
+     printf("Commission percentage is %f", amount);
+    
+    return 0; 
+}
