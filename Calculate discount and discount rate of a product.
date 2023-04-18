@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main(){
+    
+    int  sellPrice , discnt=0 ;
+    float listPrice, discntRate=0;
+    
+    printf("enter list price  : ");
+     scanf("%f", &listPrice);
+     
+    printf("enter selling price : ");
+     scanf("%d", &sellPrice); 
+     
+    discnt= listPrice - sellPrice;
+     printf("You will get a discount of %d rupees\n", discnt);
+    
+    discntRate= discnt/listPrice*100;
+     printf("You will get a discount rate of %f \n", discntRate);
+     
+    return 0; 
+}
