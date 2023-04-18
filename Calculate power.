@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+    
+    int num1 , num2, power=0;
+    
+    printf("enter a number : ");
+    scanf("%d", &num1);
+    
+    printf("enter second number : ");
+    scanf("%d", &num2);
+    
+    power= pow(num1, num2);
+    printf("Final answer is %d", power);
+    
+    return 0; 
+}
