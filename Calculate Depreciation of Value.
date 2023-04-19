@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+    
+    int cost, scrapValue, life, deprct=0;
+    
+    printf("enter the cost, scrap value and life of asset : \n");
+    scanf("%d %d %d", &cost, &scrapValue, &life);
+    
+    deprct= (cost - scrapValue)/life;
+    printf("Depreciation value is %d", deprct);
+    
+    return 0;
+}
