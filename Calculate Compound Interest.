@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+    
+    float p, r, t, A=0, finalA=0, power=0, cI=0;
+    
+    //p is the principle, r is the rate of interest, t is the time
+    //A is the compound amount, cI is the compound interest 
+    
+    printf("enter: (p,r,t)\n ");
+    scanf("%f %f %f", &p, &r, &t);
+    
+    A= 1+r/100;
+    power= pow(A,t);
+    finalA= p*power;
+    
+    cI= finalA-p;
+    printf("Compound interest is %f", cI);
+    
+    return 0;
+    
+}
