@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(){
+
+float math, physics, chemistry, English, computer, number, avrg=0;
+
+printf("enter :(math , physics, chemistry, English , computer, number )\n");
+
+scanf("%f %f %f %f %f %f", &math, &physics, &chemistry, &English , &computer, &number);
+
+avrg= (math+physics+chemistry+English+computer)/number;
+printf("Average of given marks is %f", avrg);
+
+return 0;
+
+}
