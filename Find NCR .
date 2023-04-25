@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main(){
+    
+    int n1, n2, s, i, n=1, r=1, ncr=0;
+    
+    printf("enter total number of things : ");
+    scanf("%d", &n1);
+    
+    printf("enter number of things to be chosen : ");
+    scanf("%d", &n2);
+    
+    s= n1-n2;
+    
+    for(i=s+1; i<=n1; i++){
+        
+        n= n*i;
+    }
+    for(i=1; i<=n2; i++){
+        
+        r= r*i;
+    }
+    
+    ncr= n/r;
+    printf("NCR of given number is %d", ncr);
+    
+    return 0;
+}
